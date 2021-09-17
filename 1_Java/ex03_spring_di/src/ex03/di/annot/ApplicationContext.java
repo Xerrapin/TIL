@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-
 //설정파일 역할을 하는 annotaion : Configuration
 
 @Configuration // spring 설정에 사용되는 클래스임을 명시 <--- ctx.xml 과 같다.
