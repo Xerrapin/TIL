@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+
+public class VideoManager extends Video {
+	
+	ArrayList<Video> list = new ArrayList<Video>(); // ArrayList 생성.
+	
+	public void VideoAdd (String title, String category, boolean lend) {
+		
+		
+	}
+	
+
+
+}

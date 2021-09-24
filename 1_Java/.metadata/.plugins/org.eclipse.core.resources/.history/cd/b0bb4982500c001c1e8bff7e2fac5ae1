@@ -1,0 +1,50 @@
+package ex03.BMI;
+
+import java.util.*;
+import java.io.*;
+/*
+문제3] 비만도 측정 프로그램 작성하기 - collection, file io 이용하기
+추가 / 삭제 / 출력 / 종료 처리할것
+몸무게, 키 를 입력 받아서 BMI 계산하기
+BMI = 몸무게 / ( (키 / 100.0) * (키 / 100.0) ) ;
+*/
+
+public class MainEntry {
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String fileName = "BMI.txt";
+		
+		
+		
+		Map<String, BMI> map =new HashMap<>();
+		
+		while(true) {
+			menu();
+			
+			switch() {
+			
+			}
+			
+		}
+		
+		
+		
+		
+	}
+
+	public static void menu() {
+		System.out.println("======================");
+		System.out.println("1. 정보 추가");
+		System.out.println("2. 정보 삭제");
+		System.out.println("3. 정보 출력");		
+		System.out.println("4. 프로그램 종료");
+		System.out.println("======================");
+		int check = Integer.parseInt(br.readInt());
+		
+		
+	}
+
+}

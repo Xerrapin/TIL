@@ -1,0 +1,11 @@
+
+public class Video {
+	String title; // 비디오 제목
+	String category; // 장르
+	boolean lend; // 1 : 대여가능, 0 : 대여불가
+	String lendName; // 대여자(고객명)
+	String lendDate; // 대여일자(오늘날짜)
+	
+	
+
+}

@@ -1,0 +1,23 @@
+package ex01.collection.map;
+
+import java.util.HashMap;
+
+public class HashMapEx01 {
+
+	public static void main(String[] args) {
+		
+		HashMap map = new HashMap();
+		map.put("kosa", "123");
+		map.put("kingsmile", "1004");
+		map.put("sbs", "hi");
+		map.put("bit", "123");
+	
+		System.out.println("요쇼 개수 : " + map.size());
+		
+		
+		
+		
+		
+	}
+
+}

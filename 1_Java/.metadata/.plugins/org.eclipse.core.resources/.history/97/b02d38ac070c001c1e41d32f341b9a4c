@@ -1,0 +1,10 @@
+package ex01.calc;
+
+public class Calc {
+
+	int num1, num2;
+	String oper;
+	double result;
+
+
+}

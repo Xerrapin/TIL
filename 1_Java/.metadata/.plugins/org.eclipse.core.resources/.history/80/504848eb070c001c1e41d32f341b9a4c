@@ -1,0 +1,5 @@
+package ex01.calc;
+
+public class CalcManager extends Calc{
+
+}

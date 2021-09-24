@@ -1,0 +1,25 @@
+package ex01.calc;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class CalcManager extends Calc {
+	
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	num1 = Integer.parseInt(br.readLine());
+	num2 = Integer.parseInt(br.readLine());
+	oper = br.readLine();
+	
+	System.out.println(num1);
+	System.out.println(num2);
+	System.out.println(oper);
+	
+	
+
+	public CalcManager(int num1, int num2, String oper) {
+		super(num1, num2, oper);
+		
+		
+	}
+
+}

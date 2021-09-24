@@ -1,0 +1,70 @@
+
+import java.util.*;
+
+public class MainEntry {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		VideoManager vid = new VideoManager();
+		
+		
+		
+		int check;
+			while(true) {
+				menu();
+				
+				switch (check = sc.nextInt()) {
+				case 1: // 추가
+					add();
+					break;
+				case 2: // 삭제
+					del();
+					break;
+				case 3: // 출력
+					show();
+					break;
+				case 4: // 수정
+					update();
+					break;
+				default:
+					System.out.println("다시 입력해주세요.");
+					break;
+				}
+			} // while end
+		
+		
+
+	}
+	
+	// case 1: Video 추가
+	public static void add() {
+		vid.VideoAdd();
+	}
+	
+	private static void update() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	private static void show() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	private static void del() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+
+
+	public static void menu() {
+		System.out.println("메뉴");
+	}
+	
+
+}

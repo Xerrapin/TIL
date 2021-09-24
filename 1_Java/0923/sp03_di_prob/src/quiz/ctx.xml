@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+
+	<bean id="emp" class="quiz.Employee">
+		<property name="name" value="임재혁" />
+		<property name="dept" value="개발" />
+		<property name="position" value="사원" />
+	</bean>
+	<bean id="stu" class="quiz.Student">
+		<constructor-arg name="name" value="홍길동" />
+		<constructor-arg name="grade" value="2" />
+		<constructor-arg name="group" value="2" />
+	</bean>
+
+	<bean id="advice" class="quiz.LoggingAdvice" />
+
+	<aop:config>
+		<aop:aspect id="aspect" ref="advice">
+			<aop:pointcut
+				expression="execution(public void quiz.*.*show(..))" id="pointCut" />
+			<aop:around method="around" pointcut-ref="pointCut" />
+		</aop:aspect>
+	</aop:config>
+</beans>
