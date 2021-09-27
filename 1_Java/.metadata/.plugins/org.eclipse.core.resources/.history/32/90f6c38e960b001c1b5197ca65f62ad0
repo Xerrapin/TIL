@@ -1,0 +1,15 @@
+package ex01.collection.map;
+
+import java.util.HashMap;
+
+public class HashMapEx01 {
+
+	public static void main(String[] args) {
+		
+		HashMap map = new HashMap();
+		
+		
+		
+	}
+
+}

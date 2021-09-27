@@ -1,0 +1,27 @@
+package ex01.collection.map;
+
+import java.util.HashMap;
+import java.util.Set;
+
+public class HashMapEx02 {
+	public static void main(String[] args) {
+		HashMap<String, Integer> map = new HashMap<String, Integer>();
+		map.put("현수", new Integer(90));
+		map.put("제민", new Integer(900));
+		map.put("다혜", new Integer(1000));
+		map.put("수오", new Integer(80));
+		map.put("병민", new Integer(56));
+		
+		Set set = map.entrySet();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

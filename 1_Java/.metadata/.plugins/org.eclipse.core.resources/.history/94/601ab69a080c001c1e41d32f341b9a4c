@@ -1,0 +1,15 @@
+package ex01.calc;
+
+public class CalcManager extends Calc {
+	
+	
+	
+	
+
+	public CalcManager(int num1, int num2, String oper) {
+		super(num1, num2, oper);
+		
+		
+	}
+
+}

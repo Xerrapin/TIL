@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!--  ctx.xml -->
+
+	
+ <!-- 1. ScoreImpl Constructor 통해서 값 출력 -->
+	<bean id="score" class="ex02.di.ScoreImpl">
+		<constructor-arg name="kor" value="80"></constructor-arg>
+		<constructor-arg name="eng" value="90"></constructor-arg>
+		<constructor-arg name="com" value="100"></constructor-arg>
+		
+		
+		<!-- 2. ScoreImpl setter 통해서 값을 설정 출력 --> <!-- setter -->
+		<property name="kor" value="80"></property>
+		<property name="eng" value="90"></property>
+		<property name="com" value="100"></property>
+	</bean>
+	<bean id="show" class="ex02.di.ScoreShowImpl">
+		<constructor-arg ref="score"></constructor-arg>
+	</bean>
+	
+</beans>

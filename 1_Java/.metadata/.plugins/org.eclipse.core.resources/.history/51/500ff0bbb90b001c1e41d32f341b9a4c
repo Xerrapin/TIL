@@ -1,0 +1,16 @@
+package ex04.io;
+
+public class KeyInput {
+
+	public static void main(String[] args) {
+		int su1 = 0, su2 = 0;
+		System.out.println("데이터 입력을 종료하려면 ctrl + Z 를 누르세요.");
+		
+		while( (su1 = System.in.read()) != -1 ) {
+			
+		}
+		
+		
+	}
+
+}
