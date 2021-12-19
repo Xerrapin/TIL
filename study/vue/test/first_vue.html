@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Vue.js 애완용품샵</title>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/vue"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/app.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    crossorigin="anonymous">
+  </head>
+  <body>
+    <div id="app"> <!-- vue 가 애플리케이션을 마운트 할 요소 -->
+        <header>
+            <h1 v-text="sitename"></h1> <!-- sitename 속성에 대한 데이터 바인딩--> 
+        </header>
+    </div>
+    <script type="text/javascript">  
+      var webstore = new Vue({ // Vue 생성자
+        el: '#app', // DOM 마운트 지점을 찾는 데 사용할 CSS 선택자
+        data: {
+            sitename: 'Vue.js 애완용품샵' // Header에 추가된 sitename 속성 // : Vue 옵션에 데이터 객체를 추가
+        }
+      });
+    </script>
+  </body>
+</html>
