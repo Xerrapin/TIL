@@ -1,5 +1,0 @@
-package Day07_assignment_salary;
-
-public class Sales extends Regular {
-
-}

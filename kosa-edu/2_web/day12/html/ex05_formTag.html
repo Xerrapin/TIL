@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="../css/sub0907.css">
+</head>
+
+<body>
+    <!-- get 방식 전송 : 글자수에 제한 있음(255자), 보안에 취약하다 -->
+    <!-- http://127.0.0.1:5500/day12/html/ex05_formTag.html?name=23&name=123 -->
+    <!-- <form action="" method="GET">
+        이름 : <input type="text" name="name" id="name"> <br>
+        비번 : <input type="password" name="name" id="name"> <br>
+            <input type="submit" value="전송">
+            <input type="reset" value="취소">
+    </form> -->
+    <!-- post방식 전송 : 글자수에 제한 없음 -->
+    <form action="" method="POST">
+        이름 : <input type="text" name="name" id="name"> <br>
+        비번 : <input type="password" name="name" id="name"> <br>
+        <input type="submit" value="전송">
+        <input type="reset" value="취소">
+    </form>
+
+</body>
+
+</html>
