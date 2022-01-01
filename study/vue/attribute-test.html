@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <span id="id1">span[id]</span> <br />
+    <a href="https://example.com">a[href="https://example.com"]</a> <br />
+    <span class="class1 class2">span[class~="class1"]</span> <br />
+    <span id="hi-1">span[id|="hi"]</span> <br />
+    <span id="test-1">span[id^="test"]</span> <br />
+    <span id="id-test">span[id$="test"</span> <br />
+    <span id="id-javascript-1">span[id*="javascript"</span>
+  </body>
+  <style>
+    /* id 속성을 갖는 span 요소에 스타일 지정 */
+    span[id] {
+      color: skyblue;
+    }
+
+    /* href 속성이 https://example.com인 a 요소에 스타일 지정 */
+    a[href="https://example.com"]
+    {
+      color: red;
+    }
+
+    /* 클래스로 class1을 갖는 span 요소 선택 */
+    span[class~="class1"] {
+      color: blue;
+    }
+
+    /* id 중 hi 또는 hi- 형태를 갖는 span 요소 선택 */
+    span[id|="hi"] {
+      color: darkblue;
+    }
+
+    /* id의 접두사가 test인 span 요소 선택 */
+    span[id^="test"] {
+      color: cadetblue;
+    }
+
+    /* id의 접미사가 test인 span요소 선택 */
+    span[id$="test"] {
+      color: rebeccapurple;
+    }
+
+    /* id에 javascript가 포함된 span요소 선택 */
+    span[id*="javascript"] {
+      color: teal;
+    }
+  </style>
+</html>
