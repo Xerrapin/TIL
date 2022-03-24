@@ -166,7 +166,6 @@ hello world!
 
 </p>
 </details>
-
 ````
 
 <details><summary>눌러보세요</summary>
@@ -301,8 +300,6 @@ solid cube_corner
   endfacet
 endsolid
 ```
-
-&copy;
 
 ##### 참고문서
 
