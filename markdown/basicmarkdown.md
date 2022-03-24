@@ -108,37 +108,7 @@ __double underscores__
 | 2022년 3월 25일 | 홍길동전3 | 3출판사 |
 | 2022년 3월 25일 | 홍길동전4 | 4출판사 |
 
-## Collapsed sections
 
-````
-<details><summary>CLICK ME</summary>
-<p>
-
-#### We can hide anything, even code!
-
-    ```ruby
-      puts "Hello World"
-    ```
-
-</p>
-</details>
-
-````
-
-<details><summary>CLICK ME</summary>
-<p>
-
-#### We can hide anything!
-    
-#### Energize Our Life
-
-
-```
-hello world!
-```
-
-</p>
-</details>
 
 # code
 
@@ -167,14 +137,6 @@ alert("Hello, world!");
 <hr>
 수평선
 
-# 들여쓰기
-
-하나
-
-    둘
-
-셋
-
 # 링크
 
 ```
@@ -184,7 +146,45 @@ alert("Hello, world!");
 [EIP website](www.eipgrid.com)
 
 <hr>
-github markdown
+
+# github markdown
+
+## Collapsed sections
+
+````
+<details><summary>CLICK ME</summary>
+<p>
+
+#### We can hide anything!
+    
+#### Energize Our Life
+
+
+```
+hello world!
+```
+
+</p>
+</details>
+
+````
+
+<details><summary>눌러보세요</summary>
+<p>
+
+#### We can hide anything!
+    
+#### Energize Our Life
+
+
+```
+hello world!
+```
+
+</p>
+</details>
+
+<hr>
 
 ### UML markdown
 
