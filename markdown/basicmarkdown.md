@@ -54,11 +54,15 @@ __double underscores__
 ~~cancelline~~
 ```
 
--   _single asterisks_
--   _single underscores_
--   **double asterisks**
--   **double underscores**
--   ~~cancelline~~
+_single asterisks_
+
+_single underscores_
+
+**double asterisks**
+
+**double underscores**
+
+~~cancelline~~
 
 ## BlockQuote(인용문)
 
@@ -152,7 +156,7 @@ alert("Hello, world!");
 ## Collapsed sections
 
 ````
-<details><summary>CLICK ME</summary>
+<details><summary>눌러보세요</summary>
 <p>
 
 #### We can hide anything!
@@ -300,6 +304,8 @@ solid cube_corner
   endfacet
 endsolid
 ```
+
+&copy; Harmon
 
 ##### 참고문서
 
